@@ -24,6 +24,19 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>App needs access to the camera.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App needs access to your photo library.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+<string>We need your location to tag photos.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>We need your location to tag photos even in the background.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>This app uses your location to geo-tag photos.</string>
+
+
+
 	<key>NSAppTransportSecurity</key>
 	<dict>
 	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
